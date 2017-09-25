@@ -3927,7 +3927,6 @@
     .param p2, "uid"    # I
     .param p3, "peekable"    # Z
 
-    .prologue
 
 #@.method public setPackagePeekable@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
@@ -3951,11 +3950,8 @@
     .param p3, "priority"    # I
 
     .prologue
-<<<<<<< VENDOR #Conflict 6
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public setPackagePriority@
+#@.method public setPackagePriority@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 6
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
