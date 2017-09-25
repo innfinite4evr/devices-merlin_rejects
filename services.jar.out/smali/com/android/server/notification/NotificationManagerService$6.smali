@@ -2779,11 +2779,8 @@
     .param p2, "uid"    # I
 
     .prologue
-<<<<<<< VENDOR #Conflict 1
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public getPackagePeekable@
+#@.method public getPackagePeekable@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 1
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
