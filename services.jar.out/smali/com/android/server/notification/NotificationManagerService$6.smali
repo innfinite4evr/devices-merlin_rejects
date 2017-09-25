@@ -4005,11 +4005,9 @@
     .param p3, "status"    # I
 
     .prologue
-<<<<<<< VENDOR #Conflict 8
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public setShowNotificationForPackageOnKeyguard@
+
+#@.method public setShowNotificationForPackageOnKeyguard@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 8
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
