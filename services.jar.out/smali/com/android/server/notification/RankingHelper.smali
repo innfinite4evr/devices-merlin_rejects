@@ -1578,11 +1578,8 @@
     :cond_7
     const/16 v11, -0x3e8
 
-<<<<<<< VENDOR #Conflict 0
-    if-eq v10, v11, :cond_8
-======= #@.method public readXml@
+#@.method public readXml@
     if-eq v14, v15, :cond_flyme_0
->>>>>>> BOSP #Conflict 0
 
     iput v10, v6, Lcom/android/server/notification/RankingHelper$Record;->visibility:I
 
