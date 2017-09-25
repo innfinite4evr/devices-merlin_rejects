@@ -4084,11 +4084,9 @@
     .param p2, "reason"    # Ljava/lang/String;
 
     .prologue
-<<<<<<< VENDOR #Conflict 9
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public setZenModeConfig@
+
+#@.method public setZenModeConfig@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 9
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
