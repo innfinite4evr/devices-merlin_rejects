@@ -418,11 +418,8 @@
     .prologue
     const/4 v0, 0x0
 
-<<<<<<< VENDOR #Conflict 0
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public areNotificationsEnabledForPackage@
+#@.method public areNotificationsEnabledForPackage@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 0
 
     iget-object v1, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
