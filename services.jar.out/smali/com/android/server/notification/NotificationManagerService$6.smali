@@ -3928,11 +3928,9 @@
     .param p3, "peekable"    # Z
 
     .prologue
-<<<<<<< VENDOR #Conflict 5
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public setPackagePeekable@
+
+#@.method public setPackagePeekable@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 5
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
