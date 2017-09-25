@@ -2823,11 +2823,8 @@
     .param p2, "uid"    # I
 
     .prologue
-<<<<<<< VENDOR #Conflict 3
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public getPackageVisibilityOverride@
+#@.method public getPackageVisibilityOverride@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 3
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
