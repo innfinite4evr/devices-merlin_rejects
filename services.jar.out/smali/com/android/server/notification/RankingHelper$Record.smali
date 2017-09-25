@@ -74,15 +74,13 @@
 
     iput v1, p0, Lcom/android/server/notification/RankingHelper$Record;->keyguard:I
 
-<<<<<<< VENDOR #Conflict 0
-======= #@.method private constructor <init>@
+#@.method private constructor <init>@
     const-wide/16 v0, 0x0
 
     iput-wide v0, p0, Lcom/android/server/notification/RankingHelper$Record;->notificationSoundTimeout:J
 
     invoke-direct/range {p0 .. p0}, Lcom/android/server/notification/RankingHelper$Record;->initFlymeExtraFields()V
 
->>>>>>> BOSP #Conflict 0
     return-void
 .end method
 
