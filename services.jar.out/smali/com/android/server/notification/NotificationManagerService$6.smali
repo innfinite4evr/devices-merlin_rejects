@@ -4120,8 +4120,6 @@
     return-void
 .end method
 
-<<<<<<< VENDOR #Conflict 10
-=======
 .method public getPackageNotificationSoundTimeout(Ljava/lang/String;I)J
     .locals 2
     .param p1, "pkg"    # Ljava/lang/String;
@@ -4142,8 +4140,6 @@
 
     return-wide v0
 .end method
-
->>>>>>> BOSP #Conflict 10
 
 <<<<<<< VENDOR #Conflict 11
 =======
