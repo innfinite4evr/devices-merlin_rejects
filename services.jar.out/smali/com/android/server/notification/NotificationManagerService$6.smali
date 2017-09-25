@@ -3588,11 +3588,8 @@
     .param p3, "enabled"    # Z
 
     .prologue
-<<<<<<< VENDOR #Conflict 4
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public setNotificationsEnabledForPackage@
+#@.method public setNotificationsEnabledForPackage@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 4
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
