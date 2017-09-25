@@ -3977,11 +3977,9 @@
     .param p3, "visibility"    # I
 
     .prologue
-<<<<<<< VENDOR #Conflict 7
-    invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->-wrap15()V
-======= #@.method public setPackageVisibilityOverride@
+
+#@.method public setPackageVisibilityOverride@
     invoke-static {}, Lcom/android/server/notification/NotificationManagerService;->checkCallerIsSystemOrSystemUI()V
->>>>>>> BOSP #Conflict 7
 
     iget-object v0, p0, Lcom/android/server/notification/NotificationManagerService$6;->this$0:Lcom/android/server/notification/NotificationManagerService;
 
