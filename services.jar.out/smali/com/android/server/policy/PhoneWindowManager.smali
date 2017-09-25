@@ -9659,14 +9659,11 @@
 
     iput-boolean v6, p0, Lcom/android/server/policy/PhoneWindowManager;->mAllowLockscreenWhenOn:Z
 
-<<<<<<< VENDOR #Conflict 0
-    :cond_13
-======= #@.method public applyPostLayoutPolicyLw@
+#@.method public applyPostLayoutPolicyLw@
     :cond_15
 
     invoke-static/range {p0 .. p2}, Lcom/android/server/policy/PhoneWindowManager$FlymeInjector;->setHideLockScreen(Lcom/android/server/policy/PhoneWindowManager;Landroid/view/WindowManagerPolicy$WindowState;Landroid/view/WindowManager$LayoutParams;)V
 
->>>>>>> BOSP #Conflict 0
     iget-object v5, p0, Lcom/android/server/policy/PhoneWindowManager;->mWinShowWhenLocked:Landroid/view/WindowManagerPolicy$WindowState;
 
     if-eqz v5, :cond_4
